@@ -77,7 +77,7 @@ describe('tutorial (' + desired.browserName + ')', function() {
     done();
   });
 
-  after(function(done) {
+  after(function(done) { 
     browser
       .quit()
       .sauceJobStatus(allPassed)
